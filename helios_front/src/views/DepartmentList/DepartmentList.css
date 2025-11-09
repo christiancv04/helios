@@ -1,0 +1,101 @@
+/* === Tabs === */
+.ant-tabs .ant-tabs-tab {
+  color: #999;
+  font-weight: 400;
+}
+
+.ant-tabs .ant-tabs-tab.ant-tabs-tab-active {
+  color: #1991ff;
+}
+
+.ant-tabs-ink-bar {
+  background: #1991ff;
+}
+
+.ant-tabs .ant-tabs-tab:hover {
+  color: #666;
+}
+
+.page-content {
+  background: transparent;
+  padding: 0px;
+}
+
+.section-header {
+  background-color: #fff;
+  margin: 0;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-wrap: wrap;
+  padding: 16px 30px 0px 30px;
+}
+
+.section-header > .ant-col {
+  padding-inline: 0;
+}
+
+.actions-col {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.buttons {
+  height: 29.85px;
+  width: 28px;
+}
+
+.btn-secondary {
+  color: #1991ff;
+}
+
+.radio-group {
+  height: 32px;
+}
+
+.filter-select {
+  width: 153px;
+  height: 32px;
+}
+
+.input-search {
+  width: 213px;
+  height: 32px;
+}
+
+.ant-table-pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 8px 0;
+}
+
+.ant-table-pagination .ant-pagination {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: auto;
+  flex: 1;
+}
+
+.ant-table-pagination .ant-pagination ul {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.ant-table-pagination .ant-pagination-total-text {
+  margin-right: auto;
+  color: #777;
+  font-size: 13px;
+}
+
+.ant-pagination-options {
+  margin-left: 8px;
+}
+
+.section-body {
+  padding: 16px 30px;
+}

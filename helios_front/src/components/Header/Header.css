@@ -1,0 +1,126 @@
+.app-header {
+  background: #1991ff;
+  height: 54px;
+  line-height: 54px;
+  padding: 0 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.app-header-left {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.app-header-right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.app-logo {
+  width: 50px;
+  height: 30px;
+  object-fit: contain;
+}
+
+.app-header-menu {
+  background: transparent;
+  border-bottom: none;
+  min-width: 600px;
+}
+
+.app-header-menu .ant-menu-item,
+.app-header-menu .ant-menu-submenu-title {
+  color: #fff;
+  font-weight: 500;
+  background: transparent;
+  transition: color 0.25s ease;
+}
+
+.app-header-menu .ant-menu-item:hover,
+.app-header-menu .ant-menu-submenu-title:hover {
+  color: #e6f7ff;
+  background: transparent;
+}
+
+.ant-menu-horizontal > .ant-menu-submenu::after {
+  display: none;
+  content: none;
+}
+
+.app-header-menu .ant-menu-item-selected,
+.app-header-menu .ant-menu-submenu-selected > .ant-menu-submenu-title,
+.app-header-menu .ant-menu-submenu-open > .ant-menu-submenu-title {
+  color: #fff;
+  border-bottom: 2px solid #fff;
+  background: transparent;
+}
+
+.ant-menu-dark .ant-menu-sub {
+  background-color: #167ac9;
+  border-radius: 4px;
+}
+
+.ant-menu-dark .ant-menu-submenu .ant-menu-item {
+  color: #fff;
+  font-weight: 400;
+  transition: background 0.2s ease;
+}
+
+.ant-menu-dark .ant-menu-submenu .ant-menu-item:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+.app-header-right .header-icon {
+  font-size: 18px;
+  color: #fff;
+  cursor: pointer;
+  transition: color 0.25s ease, transform 0.2s ease;
+}
+
+.app-header-right .header-icon:hover {
+  color: #e6f7ff;
+  transform: scale(1.1);
+}
+
+.app-header-right .header-icon {
+  font-size: 18px;
+  color: #fff;
+  cursor: pointer;
+  transition: color 0.25s ease, transform 0.2s ease;
+}
+
+.app-header-right .header-icon:hover {
+  color: #e6f7ff;
+  transform: scale(1.1);
+}
+
+.user-avatar {
+  background-color: #e1b1a2ff;
+  color: #fff;
+  font-weight: 600;
+}
+
+.user-section {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.user-role {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  color: #fff;
+  font-weight: 500;
+  line-height: 1;
+}
+
+.user-role svg {
+  position: relative;
+  top: 0.5px;
+}
